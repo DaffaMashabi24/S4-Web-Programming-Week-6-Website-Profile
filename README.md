@@ -2,9 +2,9 @@
 
 ## Informasi Mahasiswa
 - **Nama:** Daffa Mashabi
-- **NIM:** [Isi NIM Anda di sini]
-- **Kelas:** [Isi Kelas Anda di sini]
-- **Prodi:** S1 Informatika - Universitas Amikom Yogyakarta
+- **NIM:** 24.61.0282
+- **Kelas:** 24 BCI 01
+- **Prodi:** Bachelor of Informatics - Universitas Amikom Yogyakarta
 
 ## Deskripsi Project
 Website ini adalah portofolio pribadi modern yang dirancang untuk memperkenalkan identitas profesional saya sebagai mahasiswa Informatika. Fokus utama project ini adalah implementasi **Tailwind CSS** untuk desain yang responsif dan **Vite** sebagai workflow pengembangan yang cepat.
@@ -24,24 +24,6 @@ Project ini mengikuti struktur standar Vite dengan penyesuaian untuk tugas kulia
 - **Modern Minimalist UI**: Skema warna biru/putih yang bersih dan profesional.
 - **Interaktivitas JS**: Logika toggle menu mobile dan smooth scroll.
 - **SEO Optimized**: Penggunaan tag semantik dan meta description.
-
-## Cara Menjalankan Project
-Pastikan Anda sudah menginstal [Node.js](https://nodejs.org/).
-
-1. **Instalasi Dependensi**:
-   ```bash
-   npm install
-   ```
-
-2. **Menjalankan Dev Server**:
-   ```bash
-   npm run dev
-   ```
-
-3. **Akses Website**:
-   Buka browser dan akses alamat yang muncul di terminal (default: `http://localhost:5173`).
-
----
 
 ## Refleksi Penggunaan AI
 Dalam pengerjaan project ini, saya menggunakan AI (Antigravity) sebagai asisten coding untuk:
