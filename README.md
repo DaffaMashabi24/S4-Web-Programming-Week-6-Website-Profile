@@ -64,4 +64,4 @@ Saya menggunakan AI (Antigravity) untuk membantu:
 - Saya dapat menjelaskan bagaimana JavaScript mengubah state menu mobile dari `hidden` menjadi terlihat.
 
 ---
-*Dibuat dengan dedikasi untuk tugas Pemrograman Web 2024.*
+*Dibuat untuk tugas Pemrograman Web 2026.*
