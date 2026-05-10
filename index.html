@@ -7,12 +7,16 @@
   <meta name="description" content="Personal Portfolio of Daffa Mashabi Akmal Syarif - Bachelor of Informatics Student at Universitas Amikom Yogyakarta.">
   
   <!-- Lucide Icons -->
-  <script src="https://unpkg.com/lucide@latest" defer></script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap">
+  </noscript>
   <link rel="stylesheet" href="/src/style.css">
-  <script type="module" src="/src/main.js"></script>
+
 </head>
 <body class="bg-[#030712] text-slate-300">
 
@@ -84,7 +88,7 @@
           <div class="relative w-80 h-80">
             <div class="absolute inset-0 bg-blue-600/20 rounded-full blur-3xl -z-10"></div>
             <div class="w-full h-full rounded-3xl overflow-hidden border border-white/10 p-2 glass">
-              <img src="/images/profile.png" alt="Daffa Mashabi" class="w-full h-full object-cover rounded-2xl animate-float" loading="eager" fetchpriority="high">
+              <img src="/images/profile.avif" alt="Daffa Mashabi" width="800" height="800" class="w-full h-full object-cover rounded-2xl animate-float" loading="eager" fetchpriority="high">
             </div>
           </div>
         </div>
@@ -188,12 +192,7 @@
           </div>
           <span class="text-sm font-bold text-white">Git & GitHub</span>
         </div>
-        <div class="glass skill-card p-6 rounded-2xl flex flex-col items-center text-center group hover:border-blue-500/30 transition-all">
-          <div class="w-12 h-12 bg-white/5 rounded-xl flex items-center justify-center mb-4 text-slate-400 group-hover:text-blue-400 transition-colors">
-            <i data-lucide="layers" class="w-6 h-6"></i>
-          </div>
-          <span class="text-sm font-bold text-white">Logic Design</span>
-        </div>
+
       </div>
     </div>
   </section>
@@ -241,10 +240,10 @@
         <div class="group card-hover">
           <div class="aspect-[16/10] rounded-2xl overflow-hidden glass mb-4 border-white/5 grid grid-cols-2 gap-2 p-2">
             <div class="relative overflow-hidden rounded-xl">
-              <img src="/images/Battleship%201.png" alt="Battleship Game Screen 1" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700 opacity-90 group-hover:opacity-100">
+              <img src="/images/Battleship 1.avif" alt="Battleship Game Screen 1" width="400" height="300" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700 opacity-90 group-hover:opacity-100" loading="lazy">
             </div>
             <div class="relative overflow-hidden rounded-xl">
-              <img src="/images/Battleship%202.png" alt="Battleship Game Screen 2" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700 opacity-90 group-hover:opacity-100">
+              <img src="/images/Battleship 2.avif" alt="Battleship Game Screen 2" width="400" height="300" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700 opacity-90 group-hover:opacity-100" loading="lazy">
             </div>
           </div>
           <h4 class="text-lg font-bold text-white mb-2">Battle Ship (SDL2)</h4>
@@ -275,10 +274,10 @@
             <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/gmail.svg" alt="Email" class="w-4 h-4 brightness-0 invert"> daffamaks@gmail.com
           </a>
           <div class="flex gap-2">
-            <a href="https://github.com/DaffaMashabi24" target="_blank" class="w-12 h-12 glass rounded-xl flex items-center justify-center text-slate-400 hover:text-white hover:bg-white/5 transition-all">
+            <a href="https://github.com/DaffaMashabi24" target="_blank" rel="noopener noreferrer" class="w-12 h-12 glass rounded-xl flex items-center justify-center text-slate-400 hover:text-white hover:bg-white/5 transition-all">
               <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub" class="w-5 h-5 brightness-0 invert opacity-70 hover:opacity-100">
             </a>
-            <a href="https://www.instagram.com/ekvkaktkql/" target="_blank" class="w-12 h-12 glass rounded-xl flex items-center justify-center text-slate-400 hover:text-pink-400 hover:bg-white/5 transition-all">
+            <a href="https://www.instagram.com/ekvkaktkql/" target="_blank" rel="noopener noreferrer" class="w-12 h-12 glass rounded-xl flex items-center justify-center text-slate-400 hover:text-pink-400 hover:bg-white/5 transition-all">
               <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg" alt="Instagram" class="w-5 h-5 brightness-0 invert opacity-70 hover:opacity-100">
             </a>
           </div>
@@ -293,35 +292,10 @@
     &copy; 2028 Daffa Mashabi Akmal Syarif.
   </footer>
 
-  <script>
-    lucide.createIcons();
-    
-    // Navbar scroll effect
-    const navbar = document.getElementById('navbar');
-    window.addEventListener('scroll', () => {
-      if (window.scrollY > 30) {
-        navbar.querySelector('.glass').classList.add('shadow-2xl', 'py-1', 'border-white/20');
-      } else {
-        navbar.querySelector('.glass').classList.remove('shadow-2xl', 'py-1', 'border-white/20');
-      }
-    });
 
-    // Reveal on scroll
-    const observerOptions = {
-      threshold: 0.1,
-      rootMargin: '0px 0px -50px 0px'
-    };
-
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('reveal-visible');
-        }
-      });
-    }, observerOptions);
-
-    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
-  </script>
+  <!-- Scripts -->
+  <script src="https://unpkg.com/lucide@latest" async></script>
+  <script type="module" src="/src/main.js"></script>
 </body>
 </html>
 

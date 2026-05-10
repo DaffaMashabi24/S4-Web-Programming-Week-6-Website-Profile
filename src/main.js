@@ -41,6 +41,23 @@ document.addEventListener('DOMContentLoaded', () => {
     revealObserver.observe(section);
   });
 
+  // Navbar scroll effect
+  const navbar = document.getElementById('navbar');
+  if (navbar) {
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 30) {
+        navbar.querySelector('.glass')?.classList.add('shadow-2xl', 'py-1', 'border-white/20');
+      } else {
+        navbar.querySelector('.glass')?.classList.remove('shadow-2xl', 'py-1', 'border-white/20');
+      }
+    });
+  }
+
+  // Initialize Lucide Icons
+  if (typeof lucide !== 'undefined') {
+    lucide.createIcons();
+  }
+
   console.log('Premium Portfolio initialized: Daffa Mashabi');
 });
 
