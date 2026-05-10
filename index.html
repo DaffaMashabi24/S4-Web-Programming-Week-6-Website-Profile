@@ -87,8 +87,10 @@
     </div>
   </section>
 
+  <div class="section-divider"></div>
+
   <!-- ABOUT SECTION -->
-  <section id="about" class="py-24 border-t border-white/5">
+  <section id="about" class="py-24 reveal">
     <div class="max-w-5xl mx-auto px-6">
       <div class="grid lg:grid-cols-2 gap-16 items-start">
         <div>
@@ -127,8 +129,10 @@
     </div>
   </section>
 
+  <div class="section-divider"></div>
+
   <!-- SKILLS SECTION -->
-  <section id="skills" class="py-24 bg-white/[0.02] border-y border-white/5">
+  <section id="skills" class="py-24 bg-white/[0.01] reveal">
     <div class="max-w-5xl mx-auto px-6">
       <div class="text-center mb-16">
         <h2 class="text-xs font-bold text-blue-500 uppercase tracking-widest mb-3">Capabilities</h2>
@@ -189,8 +193,10 @@
     </div>
   </section>
 
+  <div class="section-divider"></div>
+
   <!-- PROJECTS SECTION -->
-  <section id="projects" class="py-24">
+  <section id="projects" class="py-24 reveal">
     <div class="max-w-5xl mx-auto px-6">
       <div class="flex items-end justify-between mb-12">
         <div>
@@ -203,19 +209,19 @@
       </div>
       
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div class="group">
+        <div class="group card-hover">
           <div class="aspect-[16/10] rounded-2xl overflow-hidden glass mb-4 border-white/5">
             <img src="/images/project1.png" alt="Project 1" class="w-full h-full object-cover group-hover:scale-105 transition-all duration-700 opacity-80 group-hover:opacity-100">
           </div>
-          <h4 class="text-lg font-bold text-white mb-2">Web Application V1</h4>
-          <p class="text-sm text-slate-400 font-medium mb-4">A high-performance web dashboard built with modern frontend tools.</p>
+          <h4 class="text-lg font-bold text-white mb-2">Web Application</h4>
+          <p class="text-sm text-slate-400 font-medium mb-4">A web dashboard built with modern frontend tools.</p>
           <div class="flex gap-2">
             <span class="px-2 py-1 bg-white/5 rounded text-[10px] font-bold text-slate-400">Vite</span>
             <span class="px-2 py-1 bg-white/5 rounded text-[10px] font-bold text-slate-400">Tailwind</span>
           </div>
         </div>
         
-        <div class="group">
+        <div class="group card-hover">
           <div class="aspect-[16/10] rounded-2xl overflow-hidden glass mb-4 border-white/5">
             <img src="/images/project2.png" alt="Project 2" class="w-full h-full object-cover group-hover:scale-105 transition-all duration-700 opacity-80 group-hover:opacity-100">
           </div>
@@ -227,7 +233,7 @@
           </div>
         </div>
         
-        <div class="group">
+        <div class="group card-hover">
           <div class="aspect-[16/10] rounded-2xl overflow-hidden glass mb-4 border-white/5 grid grid-cols-2 gap-2 p-2">
             <div class="relative overflow-hidden rounded-xl">
               <img src="/images/Battleship%201.png" alt="Battleship Game Screen 1" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700 opacity-90 group-hover:opacity-100">
@@ -247,8 +253,10 @@
     </div>
   </section>
 
+  <div class="section-divider"></div>
+
   <!-- CONTACT SECTION -->
-  <section id="contact" class="py-24 border-t border-white/5">
+  <section id="contact" class="py-24 reveal">
     <div class="max-w-5xl mx-auto px-6">
       <div class="glass p-12 rounded-[40px] text-center relative overflow-hidden">
         <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-600 via-indigo-600 to-blue-600"></div>
@@ -276,19 +284,37 @@
 
   <!-- FOOTER -->
   <footer class="py-12 text-center text-slate-500 text-[10px] font-bold uppercase tracking-widest">
-    &copy; 2026 Daffa Mashabi Akmal Syarif. Built with Precision.
+    &copy; 2028 Daffa Mashabi Akmal Syarif.
   </footer>
 
   <script>
     lucide.createIcons();
+    
+    // Navbar scroll effect
     const navbar = document.getElementById('navbar');
     window.addEventListener('scroll', () => {
       if (window.scrollY > 30) {
-        navbar.querySelector('.glass').classList.add('shadow-2xl', 'py-1');
+        navbar.querySelector('.glass').classList.add('shadow-2xl', 'py-1', 'border-white/20');
       } else {
-        navbar.querySelector('.glass').classList.remove('shadow-2xl', 'py-1');
+        navbar.querySelector('.glass').classList.remove('shadow-2xl', 'py-1', 'border-white/20');
       }
     });
+
+    // Reveal on scroll
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('reveal-visible');
+        }
+      });
+    }, observerOptions);
+
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
   </script>
 </body>
 </html>
