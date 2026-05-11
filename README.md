@@ -10,14 +10,10 @@
 This project is a modern personal profile website created to fulfill a Web Programming course assignment. It is designed to showcase my identity, technical skills, and project portfolio as an informatics student with a premium and professional aesthetic.
 
 ## Tech Stack
-
-<p align="left">
-  <img src="https://shields.io" alt="HTML5" />
-  <img src="https://shields.io" alt="TailwindCSS" />
-  <img src="https://shields.io" alt="JavaScript" />
-  <img src="https://shields.io" alt="Vite" />
-  <img src="https://shields.io" alt="Lucide" />
-</p>
+![HTML5](https://shields.io)
+![TailwindCSS](https://shields.io)
+![JavaScript](https://shields.io)
+![Vite](https://shields.io)
 
 - **HTML5**: Semantic content structure for accessibility and SEO.
 - **Tailwind CSS 4**: The latest CSS framework for modern and responsive design.
