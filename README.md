@@ -11,10 +11,11 @@ This project is a modern personal profile website created to fulfill a Web Progr
 
 ## Tech Stack
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-
 ![TailwindCSS](https://shields.io)
 ![JavaScript](https://shields.io)
-![Vite](https://shields.io)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=Vite&logoColor=white)
+![Lucide](https://shields.io)
+
 
 - **HTML5**: Semantic content structure for accessibility and SEO.
 - **Tailwind CSS 4**: The latest CSS framework for modern and responsive design.
