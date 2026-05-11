@@ -15,7 +15,7 @@ This project is a modern personal profile website created to fulfill a Web Progr
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=Vite&logoColor=white)
-![Lucide](https://shields.io)
+![Lucide Badge](https://shields.io)
 
 
 
