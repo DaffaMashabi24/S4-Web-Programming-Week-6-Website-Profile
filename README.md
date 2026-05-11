@@ -10,10 +10,16 @@
 This project is a modern personal profile website created to fulfill a Web Programming course assignment. It is designed to showcase my identity, technical skills, and project portfolio as an informatics student with a premium and professional aesthetic.
 
 ## Tech Stack
-![HTML5](https://shields.io)
-![CSS4](https://shields.io)
-![JavaScript](https://shields.io)
-![Vite](https://shields.io)
+
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="55" height="55"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="55" height="55"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="55" height="55"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" width="55" height="55"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg" alt="Vite" width="55" height="55"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="55" height="55"/>
+  <img src="https://lucide.dev/logo.light.svg" alt="Lucide Icons" width="55" height="55"/>
+</p>
 
 - **HTML5**: Semantic content structure for accessibility and SEO.
 - **Tailwind CSS 4**: The latest CSS framework for modern and responsive design.
