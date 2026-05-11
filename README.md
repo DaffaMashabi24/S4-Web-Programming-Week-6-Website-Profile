@@ -33,10 +33,10 @@ This project uses **Track B (Vite + Tailwind CSS)**. Follow these steps:
 2. Open the terminal in the project folder.
 3. Run the command to install dependencies:
    ```bash
-   ```npm install
+   ```npm install  ```
 4. Run the project in development mode:
    ```bash
-   ```npm run dev
+   npm run dev
    ```
 5. To view the production version (optimized):
    ```bash
