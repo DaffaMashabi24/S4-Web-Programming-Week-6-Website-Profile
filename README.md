@@ -1,42 +1,56 @@
-# Personal Profile Website - Daffa Mashabi Akmal Syarif
+# 🚀 Personal Profile Website - Daffa Mashabi
 
-## Student Information
+<div align="center">
+  <img src="https://shields.io" />
+  <img src="https://shields.io" />
+  <img src="https://shields.io" />
+</div>
+
+---
+
+## 👤 Student Information
 - **Name:** Daffa Mashabi
 - **Student ID (NIM):** 24.61.0282
 - **Class:** 24 BCI 01
 - **Program:** Bachelor of Informatics - Universitas Amikom Yogyakarta
 
-## Project Description
+---
+
+## 📝 Project Description
 This project is a modern personal profile website created to fulfill a Web Programming course assignment. It is designed to showcase my identity, technical skills, and project portfolio as an informatics student with a premium and professional aesthetic.
 
-## Tech Stack
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+---
 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=Vite&logoColor=white)
-![Lucide Badge](https://shields.io)
-
-
+## 🛠 Tech Stack
+<div align="left">
+  <img src="https://shields.io" alt="HTML5" />
+  <img src="https://shields.io" alt="TailwindCSS" />
+  <img src="https://shields.io" alt="JavaScript" />
+  <img src="https://shields.io" alt="Vite" />
+  <img src="https://shields.io" alt="Lucide" />
+</div>
 
 - **HTML5**: Semantic content structure for accessibility and SEO.
-- ![Tailwind CSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-**Tailwind CSS 4**: The latest CSS framework for modern and responsive design.
+- **Tailwind CSS 4**: The latest CSS framework for modern and responsive design.
 - **JavaScript (Vanilla)**: Interactive logic, navigation, and animations.
 - **Vite**: A modern build tool for fast development performance.
 - **Lucide Icons**: A lightweight and modern vector icon library.
 
-## Features
-- **Responsive Layout**: Optimized display for mobile, tablet, and desktop devices.
-- **Hero Section**: A brief introduction with engaging visual effects.
-- **About Me Section**: Background information on education and development focus.
-- **Skills Section**: Technical toolkit list with interactive hover effects.
-- **Projects Section**: Work portfolio with a grid layout and visual details.
-- **Contact Section**: Quick access via Email, GitHub, and Instagram.
-- **JavaScript Interaction**: Mobile menu toggle and reveal-on-scroll animations.
-- **Interactive UI**: Mobile menu toggle and *reveal on scroll* animations for a dynamic user experience.
+---
 
-## How to Run the Project
+## ✨ Features
+- **📱 Responsive Layout**: Optimized display for mobile, tablet, and desktop devices.
+- **⚡ Hero Section**: A brief introduction with engaging visual effects.
+- **👨‍💻 About Me Section**: Background information on education and development focus.
+- **📊 Skills Section**: Technical toolkit list with interactive hover effects.
+- **📂 Projects Section**: Work portfolio with a grid layout and visual details.
+- **📧 Contact Section**: Quick access via Email, GitHub, and Instagram.
+- **⚙️ JavaScript Interaction**: Mobile menu toggle and reveal-on-scroll animations.
+- **🖱️ Interactive UI**: Mobile menu toggle and *reveal on scroll* animations for a dynamic user experience.
+
+---
+
+## 🚀 How to Run the Project
 This project uses **Track B (Vite + Tailwind CSS)**. Follow these steps:
 
 1. **Clone or Download** this repository.
@@ -55,7 +69,9 @@ This project uses **Track B (Vite + Tailwind CSS)**. Follow these steps:
    npm run preview
    ```
 
-## AI Usage Reflection
+---
+
+## 🤖 AI Usage Reflection
 AI was used as a programming assistant to help with:
 - Understanding the configuration and integration of the brand-new **Tailwind CSS 4**.
 - Finding image optimization solutions (converting `.png` to `.avif`) to boost mobile performance.
@@ -91,4 +107,6 @@ AI was used as a programming assistant to help with:
 - How the *Intersection Observer* works to detect when an element enters the viewport to trigger animations.
 
 ---
-*Created for the 2026 Web Programming Assignment.*
+<div align="center">
+  <i>Created for the 2026 Web Programming Assignment.</i>
+</div>
