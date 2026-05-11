@@ -15,7 +15,8 @@ This project is a modern personal profile website created to fulfill a Web Progr
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=Vite&logoColor=white)
-<img src="https://lucide.dev" alt="Lucide Box" width="24" height="24">
+![Lucide](https://shields.io)
+
 
 
 - **HTML5**: Semantic content structure for accessibility and SEO.
