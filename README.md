@@ -1,7 +1,7 @@
 # Personal Profile Website - Daffa Mashabi Akmal Syarif
 
 ## Student Information
-- **Name:** Daffa Mashabi
+- **Name:** Daffa Mashabi Akmal Syarif
 - **Student ID (NIM):** 24.61.0282
 - **Class:** 24 BCI 01
 - **Program:** Bachelor of Informatics - Universitas Amikom Yogyakarta
