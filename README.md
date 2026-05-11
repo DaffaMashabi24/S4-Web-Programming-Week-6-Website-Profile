@@ -10,7 +10,8 @@
 This project is a modern personal profile website created to fulfill a Web Programming course assignment. It is designed to showcase my identity, technical skills, and project portfolio as an informatics student with a premium and professional aesthetic.
 
 ## Tech Stack
-![HTML5](https://shields.io)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+
 ![TailwindCSS](https://shields.io)
 ![JavaScript](https://shields.io)
 ![Vite](https://shields.io)
