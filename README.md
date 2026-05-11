@@ -82,6 +82,3 @@ AI was used as a programming assistant to help with:
 
 ---
 *Created for the 2026 Web Programming Assignment.*
-
-
-tolong ubah ini supaya lebih menarik dan profesional lagi, karena ini untuk readme di projek githubku!!!
