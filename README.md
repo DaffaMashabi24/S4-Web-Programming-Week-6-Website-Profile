@@ -1,27 +1,27 @@
 # 🚀 Personal Profile Website - Daffa Mashabi
 
 <div align="center">
-  <img src="https://shields.io" />
-  <img src="https://shields.io" />
-  <img src="https://shields.io" />
+  <img src="https://shields.io" alt="Status" />
+  <img src="https://shields.io" alt="Course" />
+  <img src="https://shields.io" alt="Year" />
 </div>
 
 ---
 
-## 👤 Student Information
-- **Name:** Daffa Mashabi
-- **Student ID (NIM):** 24.61.0282
-- **Class:** 24 BCI 01
-- **Program:** Bachelor of Informatics - Universitas Amikom Yogyakarta
+## 👤 Informasi Mahasiswa
+- **Nama:** Daffa Mashabi
+- **NIM:** 24.61.0282
+- **Kelas:** 24 BCI 01
+- **Prodi:** Bachelor of Informatics - Universitas Amikom Yogyakarta
 
 ---
 
-## 📝 Project Description
+## 📝 Deskripsi Project
 This project is a modern personal profile website created to fulfill a Web Programming course assignment. It is designed to showcase my identity, technical skills, and project portfolio as an informatics student with a premium and professional aesthetic.
 
 ---
 
-## 🛠 Tech Stack
+## 🛠 Teknologi yang Digunakan (Tech Stack)
 <div align="left">
   <img src="https://shields.io" alt="HTML5" />
   <img src="https://shields.io" alt="TailwindCSS" />
@@ -38,7 +38,7 @@ This project is a modern personal profile website created to fulfill a Web Progr
 
 ---
 
-## ✨ Features
+## ✨ Fitur
 - **📱 Responsive Layout**: Optimized display for mobile, tablet, and desktop devices.
 - **⚡ Hero Section**: A brief introduction with engaging visual effects.
 - **👨‍💻 About Me Section**: Background information on education and development focus.
@@ -50,7 +50,7 @@ This project is a modern personal profile website created to fulfill a Web Progr
 
 ---
 
-## 🚀 How to Run the Project
+## 🚀 Cara Menjalankan Project
 This project uses **Track B (Vite + Tailwind CSS)**. Follow these steps:
 
 1. **Clone or Download** this repository.
@@ -71,7 +71,7 @@ This project uses **Track B (Vite + Tailwind CSS)**. Follow these steps:
 
 ---
 
-## 🤖 AI Usage Reflection
+## 🤖 Refleksi Penggunaan AI
 AI was used as a programming assistant to help with:
 - Understanding the configuration and integration of the brand-new **Tailwind CSS 4**.
 - Finding image optimization solutions (converting `.png` to `.avif`) to boost mobile performance.
@@ -79,7 +79,7 @@ AI was used as a programming assistant to help with:
 - Developing efficient JavaScript logic for the *Intersection Observer* to ensure smooth animations.
 - Organizing complex grid and flexbox structures to keep the layout clean across all screen sizes.
 
-**Work or modifications done independently:**
+**Bagian yang saya kerjakan atau modifikasi sendiri:**
 - Defined the dark mode color scheme and *glassmorphism* aesthetic.
 - Wrote all profile text content, project descriptions, and educational history.
 - Organized the grid layout in the portfolio section to display multiple screenshots simultaneously.
@@ -90,7 +90,7 @@ AI was used as a programming assistant to help with:
 - Selected the brand color (Blue-Slate) and applied the *Glassmorphism* effect to the navbar.
 - Chose to remove non-essential elements (like Logic Design) to maximize performance.
 
-**Key Learnings:**
+**Hal yang saya pelajari:**
 - Using build tools like Vite significantly simplifies asset management and modern CSS workflows.
 - Understanding how Tailwind's *Utility-first CSS* works to create consistent UI components without writing thousands of lines of manual CSS.
 - How to use JavaScript to provide visual feedback to users, such as scroll animations.
@@ -99,7 +99,7 @@ AI was used as a programming assistant to help with:
 - Adding small labels like `aria-label` greatly assists users who rely on screen readers.
 - The difference between `dev` and `build` modes, and the importance of code minification for production.
 
-**Code Sections That Can Be Explained:**
+**Bagian kode yang dapat saya jelaskan:**
 - How semantic HTML tags are used to divide the website into clear, logical sections.
 - How JavaScript toggles the mobile menu state from `hidden` to visible.
 - The use of `<header>`, `<main>`, and `<footer>` as the standard for modern website structure.
