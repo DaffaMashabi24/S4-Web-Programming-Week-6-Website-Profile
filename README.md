@@ -1,9 +1,5 @@
 # 🌟 Daffa Mashabi Akmal Syarif - Personal Portfolio Website
 
-![Portfolio Preview](https://via.placeholder.com/1200x600?text=Insert+Your+Website+Screenshot+Here)
-
-> **Note:** Ganti link gambar di atas dengan screenshot asli website-mu.
-
 A modern, premium, and fully responsive personal profile website designed to showcase my identity, technical skills, and project portfolio. This project was developed as a comprehensive assignment for the **2026 Web Programming Course** at Universitas Amikom Yogyakarta.
 
 ---
