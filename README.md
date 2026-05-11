@@ -1,11 +1,5 @@
 # 🚀 Personal Profile Website - Daffa Mashabi
 
-<div align="center">
-  <img src="https://shields.io" alt="Status" />
-  <img src="https://shields.io" alt="Course" />
-  <img src="https://shields.io" alt="Year" />
-</div>
-
 ---
 
 ## 👤 Informasi Mahasiswa
@@ -22,14 +16,6 @@ This project is a modern personal profile website created to fulfill a Web Progr
 ---
 
 ## 🛠 Teknologi yang Digunakan (Tech Stack)
-<div align="left">
-  <img src="https://shields.io" alt="HTML5" />
-  <img src="https://shields.io" alt="TailwindCSS" />
-  <img src="https://shields.io" alt="JavaScript" />
-  <img src="https://shields.io" alt="Vite" />
-  <img src="https://shields.io" alt="Lucide" />
-</div>
-
 - **HTML5**: Semantic content structure for accessibility and SEO.
 - **Tailwind CSS 4**: The latest CSS framework for modern and responsive design.
 - **JavaScript (Vanilla)**: Interactive logic, navigation, and animations.
