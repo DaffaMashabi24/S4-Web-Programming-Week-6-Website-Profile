@@ -36,14 +36,14 @@ This project uses **Track B (Vite + Tailwind CSS)**. Follow these steps:
    npm install
    ```
 4. Run the project in development mode:
-   ```bash
-   npm run dev
-   ```
+   ```bash
+   npm run dev
+   ```
 5. To view the production version (optimized):
-   ```bash
-   npm run build
-   npm run preview
-   ```
+   ```bash
+   npm run build
+   npm run preview
+   ```
 
 ## AI Usage Reflection
 AI was used as a programming assistant to help with:
